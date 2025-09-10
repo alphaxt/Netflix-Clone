@@ -21,7 +21,8 @@ body {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200, 100vh); /* Responsive background */
+    background-size: max(1200, 100vh);
+    /* Responsive background */
 }
 
 /* Overlay for darkening the hero image */
@@ -408,6 +409,10 @@ footer .question {
         flex-direction: column;
         align-items: center;
     }
+
+    .footer2 {
+        gap: 18px;
+    }
 }
 
 /* For screens <= 770px: adjust feature video and image size */
@@ -421,6 +426,11 @@ footer .question {
 
     .part1 img {
         max-width: 33vw;
+    }
+
+    .footer2 {
+        gap: 35px;
+        padding: 9px;
     }
 }
 
@@ -448,15 +458,15 @@ footer .question {
 }
 
 /* For screens <= 430px: adjust feature video and image size */
-@media screen and (max-width: 430px){
- .part1 video{
+@media screen and (max-width: 430px) {
+    .part1 video {
         top: 49%;
         left: 76%;
         width: 43%;
         height: 70%;
     }
 
-    .part1 img{
+    .part1 img {
         max-width: 33vw;
     }
 }
